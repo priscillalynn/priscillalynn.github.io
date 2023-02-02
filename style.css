@@ -1,7 +1,16 @@
-.body {
-    font-family:'Courier New', Courier, monospace
-}
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap');
 
 * {
     background-color: rgb(242, 204, 242);
+    font-family: 'Playfair Display', serif;
+}
+
+.me-container {
+    border-radius: 50%;
+}
+
+a {
+    font-size: 40px;
+    color: black;
+    margin-right: 10px; 
 }
