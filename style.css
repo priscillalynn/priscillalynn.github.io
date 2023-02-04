@@ -3,12 +3,27 @@
 * {
     background-color: rgb(242, 204, 242);
     font-family: 'NTR', sans-serif;
-    line-height: 100%;
 }
 
 h2 {
     line-height: 60%;
 }
+
+a:link {
+    color: rgb(232, 106, 150);
+  }
+  
+a:visited {
+    color: rgb(57, 30, 66);
+  }
+  
+a:hover {
+    color: hotpink;
+  }
+  
+a:active {
+    color: rgb(90, 22, 66);
+  }
 
 #message::after {
     content: '|';
