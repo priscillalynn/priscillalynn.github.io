@@ -2,11 +2,50 @@
 
 * {
     background-color: rgb(242, 204, 242);
-    font-family: 'Playfair Display', serif;
 }
 
-a {
-    font-size: 20px;
+#message::after {
+    content: '|';
+    margin-left: 5px;
+    animation: blink 0.9s infinite;
+  }
+  
+  @keyframes blink {
+    0% { opacity: 1; }
+    100% { opacity: 0; }
+  }
+
+  li {
+    list-style-type: none;
+    position: relative;
+    padding-left: 25px;
+  }
+  
+  li:before {
+    content: "\25BA \0020";
+    font-size: 6px;
+    position: absolute;
+    top: 5px;
+    left: 10px;
+  }
+
+a.linkedin, a.github, a.email {
+    font-size: 25px;
     color: black;
     margin-right: 10px; 
+}
+
+footer {
+    bottom: 0;
+    position: relative;
+    width: 100%;
+}
+
+.footer {
+    height: 100px;
+    margin: auto;
+    width: 400px;
+    text-align: center;
+    padding: 10px;
+    color: black;
 }
