@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=NTR&display=swap');
 
 * {
-    background-color: rgb(242, 204, 242);
+    background-color: white;
     font-family: 'NTR', sans-serif;
 }
+
 
 h2 {
     line-height: 60%;
@@ -54,6 +55,7 @@ a.linkedin, a.github, a.email {
     font-size: 25px;
     color: black;
     margin-right: 10px; 
+    padding-left: 20px;
 }
 
 footer {
