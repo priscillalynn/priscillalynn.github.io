@@ -3,11 +3,12 @@
 * {
     background-color: white;
     font-family: 'NTR', sans-serif;
-    font-weight: 200;
 }
 
 h2 {
     line-height: 60%;
+    padding: 10px;
+
 }
 
 a:link {
@@ -54,7 +55,7 @@ a:active {
 a.linkedin, a.github, a.email {
     font-size: 25px;
     color: black;
-    margin-right: 10px; 
+    margin-right: 8px; 
     padding-left: 20px;
 }
 
