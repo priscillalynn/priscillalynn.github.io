@@ -27,17 +27,6 @@ a:active {
     color: rgb(90, 22, 66);
   }
 
-#message::after {
-    content: '|';
-    margin-left: 5px;
-    animation: blink 0.9s infinite;
-  }
-  
-  @keyframes blink {
-    0% { opacity: 1; }
-    100% { opacity: 0; }
-  }
-
   li {
     list-style-type: none;
     position: relative;
@@ -73,3 +62,57 @@ footer {
     padding: 10px;
     color: black;
 }
+
+
+
+/* ============= MEDIA QUERIES (MEDIUM DEVICES) ============= */
+/*
+@media screen and (max-width: 1024px) {
+  .experience__container {
+      grid-template-columns: 1fr;
+  }
+
+  .experience__container > div {
+      width: 80%;
+      padding: 2rem;
+      margin: 0 auto;
+  }
+
+  .experience__content {
+      padding: 1rem;
+  }
+}
+*/
+
+/* ============= MEDIA QUERIES (SMALL DEVICES) ============= */
+/*
+@media screen and (max-width: 600px) {
+  .container, .skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin: 0 auto;
+  }
+
+  .skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin: 0 auto;
+  }
+  
+  .right {
+    display: flex;
+    align-items: center;
+  }
+
+  .about-image {
+    display: flex;
+    align-items: center;
+    flex-shrink: 2;
+  }
+
+}
+*/
